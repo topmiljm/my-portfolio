@@ -95,3 +95,44 @@ a {
   /* Transition */
   --transition: 250ms ease;
 }
+
+
+/* ========================================
+   GLOBAL STYLES
+======================================== */
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: var(--fs-400);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  font-weight: var(--fw-bold);
+}
+
+p {
+  color: var(--color-text-secondary);
+}
+
+
+/* ========================================
+   UTILITIES
+======================================== */
+
+.container {
+  width: min(100% - 2rem, var(--container-width));
+  margin-inline: auto;
+}
+
+.section {
+  padding: var(--space-9) 0;
+}
