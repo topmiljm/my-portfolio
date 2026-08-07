@@ -1,11 +1,12 @@
 import "./Navbar.css";
+import site from "../../data/site";
 
 function Navbar() {
 	return (
 		<header className="navbar">
 			<div className="container navbar__container">
 				<a href="#home" className="navbar__logo">
-					James Topmiller
+					{site.name}
 				</a>
 
 				<nav aria-label="Primary Navigation">
