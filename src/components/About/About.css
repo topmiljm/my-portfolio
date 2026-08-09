@@ -39,6 +39,16 @@
     line-height: 1.8;
 }
 
+.about__text p:hover {
+    border-left: 2px solid orange;
+    padding-left: 8px;
+    cursor: grab;
+    font-style: italic;
+    border-radius: 20px;
+    box-shadow: inset -5px 0px 6px var(--color-accent),
+    inset 1px 0px 5px orange; 
+}
+
 .about__text p:last-child {
     margin-bottom: 0;
 }
