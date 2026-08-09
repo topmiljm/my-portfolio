@@ -15,12 +15,16 @@ function Projects() {
 
                 <div className="projects__grid">
                     {projects.map((project) => (
-                        <article key={project.id} className="project-card">
+                        <article
+                            key={project.id}
+                            className={`project-card ${project.id === 1 ? "project-card--featured" : ""
+                                }`}
+                        >
 
                             <div
                                 className={`project-card__image-wrapper ${project.imageType === "mobile"
-                                        ? "project-card__image-wrapper--mobile"
-                                        : ""
+                                    ? "project-card__image-wrapper--mobile"
+                                    : ""
                                     }`}
                             >
                                 <img
