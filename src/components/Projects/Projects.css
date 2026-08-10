@@ -182,6 +182,7 @@
     font-style: italic;
     transition: var(--transition);
     color: var(--color-text-secondary);
+    word-spacing: 50%;
 }
 
 @media (max-width: 768px) {

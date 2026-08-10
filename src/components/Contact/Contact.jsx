@@ -20,7 +20,7 @@ function Contact() {
             href="mailto:james.m.topmiller@gmail.com"
             className="contact__email"
           >
-            james.m.topmiller@gmail.com
+            james.m.topmiller@gmail.com →
           </a>
         </div>
       </div>

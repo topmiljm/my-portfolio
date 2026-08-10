@@ -57,7 +57,7 @@ function Projects() {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        Live Site
+                                        Live•Site → 
                                     </a>
 
                                     <a
@@ -65,7 +65,7 @@ function Projects() {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        GitHub
+                                        GitHub → 
                                     </a>
                                 </div>
                             </div>
