@@ -51,7 +51,9 @@
 .project-card:hover {
     transform: translateY(-4px);
     border-color: var(--color-text-secondary);
-    box-shadow: -1px 1px 10px 1px orange;
+    /* box-shadow: -1px 1px 10px 1px orange; */
+    box-shadow: -4px 0px 2px orange,
+        5px 0px 5px var(--color-accent);
 }
 
 .project-card__image-wrapper {
@@ -162,7 +164,7 @@
 
     padding-bottom: var(--space-1);
 
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px dotted transparent;
 
     color: var(--color-text);
     font-weight: var(--fw-semibold);
@@ -173,8 +175,13 @@
 }
 
 .project-card__links a:hover {
-    color: var(--color-accent);
-    border-color: var(--color-accent);
+    border-left: 3px solid var(--color-accent);
+    border-radius: 8px 8px 0;
+    padding-left: 3px;
+    border-bottom: 2px solid orange;
+    font-style: italic;
+    transition: var(--transition);
+    color: var(--color-text-secondary);
 }
 
 @media (max-width: 768px) {

@@ -32,7 +32,7 @@
 
 .navbar__links {
   display: flex;
-  gap: var(--space-6);
+  gap: var(--space-5);
 }
 
 .navbar__links a {
@@ -45,9 +45,15 @@
 .navbar__links a:hover {
   color: var(--color-text);
   border-bottom: 2px solid orange;
+  border-left: 3px solid var(--color-accent);
+  padding-left: 5px;
+  border-radius: 5px 5px 0;
 }
 
 .navbar__links a.active {
-  color: orange;
+  color: var(--color-text);
   border-bottom: 2px solid orange;
+  border-left: 3px solid var(--color-accent);
+  padding-left: 5px;
+  border-radius: 5px 5px 0;
 }
