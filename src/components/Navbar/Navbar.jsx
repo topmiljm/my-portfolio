@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Navbar.css";
-import site from "../../data/site";
+// import site from "../../data/site";
 
 function Navbar() {
 	const [activeSection, setActiveSection] = useState('');
@@ -48,7 +48,7 @@ function Navbar() {
 		<header className="navbar">
 			<div className="container navbar__container">
 				<a href="#top" className="navbar__logo">
-					{site.name}
+					James<br></br>Topmiller
 				</a>
 
 				<nav aria-label="Primary Navigation">
