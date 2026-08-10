@@ -23,16 +23,9 @@
   border-radius: 20px;
 }
 
-/* .navbar__logo img {
-  width: 8rem;
-} */
-
 .navbar__logo:hover {
   color: var(--color-accent);
   color: var(--color-text-secondary);
-  /* box-shadow: -1px 0px 6px var(--color-accent),
-    1px 0px 5px orange; */
-  transform: scale(1.05);
   border-left: 3px solid orange;
   border-right: 3px solid var(--color-accent);
   padding: 0 5px 0 5px;
