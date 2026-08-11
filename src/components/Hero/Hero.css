@@ -19,6 +19,7 @@
   color: var(--color-text-secondary);
   font-size: var(--fs-500);
   font-weight: var(--fw-medium);
+  animation: heroFadeIn 500ms ease-out both;
 }
 
 .hero__title {
@@ -28,6 +29,11 @@
   font-weight: var(--fw-bold);
   line-height: 0.95;
   letter-spacing: -0.04em;
+  animation: heroTitleReveal 700ms ease-out 350ms both;
+}
+
+.hero__location {
+  animation: heroFadeIn 500ms ease-out 900ms both;
 }
 
 .hero__subtitle {
@@ -36,6 +42,7 @@
   color: var(--color-accent);
   font-size: clamp(1.25rem, 3vw, 2rem);
   font-weight: var(--fw-medium);
+  animation: heroSubtitleReveal 500ms ease-out 1050ms both;
 }
 
 .hero__description {
@@ -44,6 +51,7 @@
 
   font-size: var(--fs-500);
   line-height: 1.7;
+  animation: heroFadeIn 600ms ease-out 1250ms both;
 }
 
 .hero__button {
@@ -59,6 +67,7 @@
   font-weight: var(--fw-medium);
 
   transition: var(--transition);
+  animation: heroFadeIn 600ms ease-out 1450ms both;
 }
 
 .hero__button:hover {
@@ -83,4 +92,65 @@
 .hero__scroll:hover {
   color: var(--color-accent);
   box-shadow: -1px 1px 8px 1px var(--color-text-secondary);
+}
+
+@keyframes heroFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroTitleReveal {
+  from {
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+  }
+
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes heroSubtitleReveal {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  65% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .hero__intro,
+  .hero__title,
+  .hero__location,
+  .hero__subtitle,
+  .hero__description,
+  .hero__button {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    clip-path: none;
+  }
 }

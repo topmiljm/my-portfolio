@@ -46,11 +46,11 @@
 }
 
 .about__text p:hover {
-    /* border-left: 2px solid var(--color-text-secondary); */
+    border-left: 2px solid var(--color-accent);
     padding: 0 3px 0 5px;
     cursor: grab;
     font-style: italic;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* box-shadow: inset -5px 0px 6px var(--color-accent), */
         /* inset 1px 0px 5px orange; */
 }

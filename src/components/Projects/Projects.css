@@ -126,7 +126,7 @@
 .project-card__note {
   margin-bottom: var(--space-5);
 
-  color: var(--color-text-secondary);
+  color: var(--color-accent);
   font-size: var(--fs-300);
   line-height: 1.5;
 }

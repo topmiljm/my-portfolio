@@ -10,7 +10,7 @@ function Hero() {
           James Topmiller
         </h1>
 
-        <p>
+        <p className="hero__location">
           •los angeles, california•
         </p>
 
