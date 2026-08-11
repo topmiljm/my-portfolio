@@ -24,12 +24,7 @@
 }
 
 .navbar__logo:hover {
-  color: var(--color-accent);
-  color: var(--color-text-secondary);
-  border-left: 3px solid orange;
-  border-right: 3px solid var(--color-accent);
-  padding: 0 3px 0 3px;
-  opacity: 80%;
+  opacity: 50%;
 }
 
 .navbar__links {
@@ -48,18 +43,20 @@
   color: var(--color-text);
   border-bottom: 2px solid orange;
   border-left: 3px solid var(--color-accent);
-  padding-left: 3px;
+  padding-left: 2px;
   border-radius: 5px 5px 0;
   font-style: italic;
+  box-shadow: -3px 0 2px var(--color-accent);
 }
 
 .navbar__links a.active {
   color: var(--color-text);
   border-bottom: 2px solid orange;
   border-left: 3px solid var(--color-accent);
-  padding-left: 5px;
+  padding-left: 2px;
   border-radius: 5px 5px 0;
   font-style: italic;
+  box-shadow: -3px 0 2px var(--color-accent);
 }
 
 @media (max-width: 768px) {

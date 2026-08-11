@@ -10,6 +10,10 @@ function Hero() {
           James Topmiller
         </h1>
 
+        <p>
+          •los angeles, california•
+        </p>
+
         <h2 className="hero__subtitle">
           Full-Stack Software Developer
         </h2>
