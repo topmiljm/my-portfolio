@@ -2,6 +2,7 @@ const projects = [
   {
     id: 1,
     title: "JT's Vinyl Store",
+    featured: true,
     image: "/projects/jts-vinyl-store.png",
     backendNote:
       "***The backend may take a few seconds to wake up after periods of inactivity.",
