@@ -64,7 +64,7 @@
 .hero__button:hover {
   background-color: var(--color-text);
   color: var(--color-background);
-  box-shadow: -1px 1px 8px 2px orange;
+  box-shadow: -1px 1px 10px 1px var(--color-accent);
 }
 
 .hero__scroll {
@@ -82,5 +82,5 @@
 
 .hero__scroll:hover {
   color: var(--color-accent);
-  box-shadow: -1px 1px 8px 1px orange;
+  box-shadow: -1px 1px 8px 1px var(--color-text-secondary);
 }

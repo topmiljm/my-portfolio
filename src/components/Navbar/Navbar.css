@@ -41,7 +41,7 @@
 
 .navbar__links a:hover {
   color: var(--color-text);
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid var(--color-text-secondary);
   border-left: 3px solid var(--color-accent);
   padding-left: 2px;
   border-radius: 5px 5px 0;
@@ -51,7 +51,7 @@
 
 .navbar__links a.active {
   color: var(--color-text);
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid var(--color-text-secondary);
   border-left: 3px solid var(--color-accent);
   padding-left: 2px;
   border-radius: 5px 5px 0;

@@ -46,13 +46,13 @@
 }
 
 .about__text p:hover {
-    border-left: 2px solid orange;
+    /* border-left: 2px solid var(--color-text-secondary); */
     padding: 0 3px 0 5px;
     cursor: grab;
     font-style: italic;
     border-radius: 20px;
-    box-shadow: inset -5px 0px 6px var(--color-accent),
-        inset 1px 0px 5px orange;
+    /* box-shadow: inset -5px 0px 6px var(--color-accent), */
+        /* inset 1px 0px 5px orange; */
 }
 
 .about__text p:last-child {

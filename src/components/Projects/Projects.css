@@ -156,7 +156,7 @@
 .project-card__links a:hover {
   color: var(--color-text-secondary);
   border-left: 2px solid var(--color-accent);
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid var(--color-text-secondary);
   font-style: italic;
   word-spacing: 50%;
   border-radius: 10px 10px 0;
