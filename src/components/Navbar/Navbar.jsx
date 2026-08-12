@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Navbar.css";
 // import site from "../../data/site";
-import logo from "../../assets/logos/logo.png";
+import logo from "../../assets/logos/jt-logo.png";
 
 function Navbar() {
 	const [activeSection, setActiveSection] = useState('');

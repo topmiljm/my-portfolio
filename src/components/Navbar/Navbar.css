@@ -18,13 +18,14 @@
 }
 
 .navbar__logo {
-  transition: var(--transition);
+  /* transition: var(--transition);
   border-bottom: 4px dotted transparent;
-  border-radius: 20px;
+  border-radius: 20px; */
+  width: 4rem;
 }
 
 .navbar__logo:hover {
-  opacity: 50%;
+  opacity: 70%;
 }
 
 .navbar__links {
