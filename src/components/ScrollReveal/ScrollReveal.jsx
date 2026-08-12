@@ -18,7 +18,7 @@ function ScrollReveal({ children, className = "" }) {
         }
       },
       {
-        threshold: 0.15,
+        threshold: 0.10,
       }
     );
 

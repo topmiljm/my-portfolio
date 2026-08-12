@@ -33,10 +33,6 @@
     letter-spacing: -0.04em;
 }
 
-/* .about__text {
-    max-width: 700px;
-} */
-
 .about__text p {
     margin-bottom: var(--space-5);
 
@@ -50,9 +46,6 @@
     padding: 0 3px 0 5px;
     cursor: grab;
     font-style: italic;
-    /* border-radius: 20px; */
-    /* box-shadow: inset -5px 0px 6px var(--color-accent), */
-        /* inset 1px 0px 5px orange; */
 }
 
 .about__text p:last-child {
