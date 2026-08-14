@@ -100,23 +100,23 @@ const projects = [
     githubUrl: "https://github.com/topmiljm/cheapmachines-music",
   },
 
-  {
-    id: 6,
-    title: "MNTN James Music",
-    image: "/projects/mntn-james-music.png",
-    description:
-      "A responsive personal music website showcasing original music, projects, and creative work.",
-    technologies: [
-      "React",
-      "JavaScript",
-      "CSS",
-      "Vercel",
-      "Cloudinary",
-      "Resend",
-    ],
-    liveUrl: "https://mntnjames-music.vercel.app/",
-    githubUrl: "https://github.com/topmiljm/mntnjames-music",
-  },
+  // {
+  //   id: 6,
+  //   title: "MNTN James Music",
+  //   image: "/projects/mntn-james-music.png",
+  //   description:
+  //     "A responsive personal music website showcasing original music, projects, and creative work.",
+  //   technologies: [
+  //     "React",
+  //     "JavaScript",
+  //     "CSS",
+  //     "Vercel",
+  //     "Cloudinary",
+  //     "Resend",
+  //   ],
+  //   liveUrl: "https://mntnjames-music.vercel.app/",
+  //   githubUrl: "https://github.com/topmiljm/mntnjames-music",
+  // },
 ];
 
 export default projects;
