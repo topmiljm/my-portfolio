@@ -10,7 +10,7 @@ function Footer() {
 
         <div className="footer__links">
           <a
-            href="YOUR_GITHUB_URL"
+            href="https://github.com/topmiljm"
             target="_blank"
             rel="noreferrer"
           >
@@ -18,7 +18,7 @@ function Footer() {
           </a>
 
           <a
-            href="YOUR_LINKEDIN_URL"
+            href="https://www.linkedin.com/in/james-topmiller123/"
             target="_blank"
             rel="noreferrer"
           >
