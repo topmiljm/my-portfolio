@@ -22,6 +22,14 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
           >
+            Resume
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/james-topmiller123/"
+            target="_blank"
+            rel="noreferrer"
+          >
             LinkedIn
           </a>
         </div>

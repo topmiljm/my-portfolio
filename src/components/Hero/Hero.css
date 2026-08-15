@@ -54,6 +54,12 @@
   animation: heroFadeIn 600ms ease-out 1250ms both;
 }
 
+.hero__buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+}
+
 .hero__button {
   display: inline-flex;
   align-items: center;
@@ -75,6 +81,24 @@
   color: var(--color-background);
   box-shadow: -1px 1px 10px 1px var(--color-accent);
 }
+
+/* .hero__link {
+  display: inline-flex;
+  align-items: center;
+
+  padding-bottom: var(--space-1);
+
+  border-bottom: 1px solid transparent;
+
+  font-weight: var(--fw-semibold);
+
+  transition:
+    color var(--transition),
+    border-color var(--transition);
+
+  animation: heroFadeIn 600ms ease-out 1450ms both;
+
+} */
 
 .hero__scroll {
   position: absolute;
@@ -147,6 +171,7 @@
   .hero__location,
   .hero__subtitle,
   .hero__description,
+  .hero__link,
   .hero__button {
     animation: none;
     opacity: 1;

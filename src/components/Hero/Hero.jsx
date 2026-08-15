@@ -23,9 +23,21 @@ function Hero() {
           React, Node.js, JavaScript, and SQL.
         </p>
 
-        <a href="#projects" className="hero__button">
-          View Projects
-        </a>
+        <div className="container hero__buttons">
+
+          <a href="#projects" className="hero__button">
+            View Projects
+          </a>
+
+          <a
+            href="https://github.com/topmiljm"
+            target="_blank"
+            rel="noreferrer"
+            className="hero__button"
+          >
+            GitHub
+          </a>
+        </div>
       </div>
 
       <a
@@ -35,7 +47,7 @@ function Hero() {
       >
         ↓
       </a>
-    </section>
+    </section >
   );
 }
 
