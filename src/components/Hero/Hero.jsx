@@ -20,7 +20,7 @@ function Hero() {
 
         <p className="hero__description">
           I build modern, responsive web applications using
-          React, Node.js, Python, and PostgreSQL.
+          React, Node.js, JavaScript, and SQL.
         </p>
 
         <a href="#projects" className="hero__button">

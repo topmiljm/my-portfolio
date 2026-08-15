@@ -26,7 +26,7 @@ function About() {
                 <p>
                   I've built and deployed full-stack applications using
                   technologies including React, JavaScript, Node.js, Express,
-                  Python, Flask, PostgreSQL, and SQL. My projects have included
+                  Python, Flask, PostgreSQL, and SQLite. My projects have included
                   e-commerce, music applications, data-driven applications,
                   APIs, authentication, payment processing, and responsive
                   interfaces.
