@@ -18,7 +18,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/james-topmiller123/"
+            href="/James_Topmiller_Resume.pdf"
             target="_blank"
             rel="noreferrer"
           >
