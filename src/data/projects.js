@@ -71,7 +71,7 @@ const projects = [
     backendNote:
       "***The backend may take a few seconds to wake up after periods of inactivity.",
     description:
-      "An interactive React application that challenges users to identify which member of The Beatles said a particular quote.",
+      "A mobile-first interactive React application that challenges users to identify which member of The Beatles said a particular quote.",
     technologies: [
       "React",
       "JavaScript",
