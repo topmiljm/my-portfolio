@@ -24,6 +24,14 @@ function About() {
                 </p>
 
                 <p>
+                  I spent several years pursuing acting, music and creative work,
+                  while developing an engineering/land surveying background. Over time,
+                  I discovered that I really enjoyed building software and solving technical
+                  problems, so I began developing full-stack applications independently and
+                  decided to pursue software engineering professionally.
+                </p>
+
+                <p>
                   I've built and deployed full-stack applications using
                   technologies including React, JavaScript, Node.js, Express,
                   Python, Flask, PostgreSQL, and SQLite. My projects have included
@@ -39,6 +47,14 @@ function About() {
                   developer.
                 </p>
               </div>
+
+              <a
+                href="/James_Topmiller_Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View My Resume
+              </a>
             </div>
           </div>
         </ScrollReveal>
