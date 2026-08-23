@@ -49,7 +49,7 @@ function About() {
               </div>
 
               <a
-                href="/James_Topmiller_Resume.pdf"
+                href="/JamesTopmiller-Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
