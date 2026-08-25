@@ -22,6 +22,10 @@
   animation: heroFadeIn 500ms ease-out both;
 }
 
+.hero__intro-2 {
+  animation: heroTitleReveal 700ms ease-out 350ms both;
+}
+
 .hero__title {
   margin-bottom: var(--space-3);
 
@@ -167,6 +171,7 @@
 @media (prefers-reduced-motion: reduce) {
 
   .hero__intro,
+  .hero__intro-2,
   .hero__title,
   .hero__location,
   .hero__subtitle,

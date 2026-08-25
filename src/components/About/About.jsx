@@ -13,7 +13,7 @@ function About() {
 
             <div className="about__main">
               <h2 className="about__title">
-                I build software with an engineering mindset.
+                I build software with an artist/engineer mindset.
               </h2>
 
               <div className="about__text">

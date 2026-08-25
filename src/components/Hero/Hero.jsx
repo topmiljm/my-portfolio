@@ -4,7 +4,8 @@ function Hero() {
   return (
     <section id="top" className="hero">
       <div className="container hero__container">
-        <p className="hero__intro">Hi, I'm</p>
+        <p className="hero__intro">⟨ 'Hello, world' ⟩</p>
+        <p className="hero__intro-2">My name is</p>
 
         <h1 className="hero__title">
           James Topmiller
