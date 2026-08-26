@@ -17,11 +17,11 @@ function About() {
               </h2>
 
               <div className="about__text">
-                <p>
+                {/* <p>
                   I'm a software developer with an engineering background and
                   a strong interest in building practical, user-focused web
                   applications.
-                </p>
+                </p> */}
 
                 <p>
                   I spent several years pursuing acting, music and creative work,
