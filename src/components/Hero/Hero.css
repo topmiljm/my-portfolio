@@ -15,15 +15,30 @@
 
 .hero__intro {
   margin-bottom: var(--space-2);
-
+  padding: 0 5px 0;
   color: var(--color-text-secondary);
   font-size: var(--fs-500);
   font-weight: var(--fw-medium);
   animation: heroFadeIn 500ms ease-out both;
+  display: flex;
+}
+
+.hero__intro-div {
+  border-right: 2px solid var(--color-accent);
+  padding-left: 5px;
+  height: 25px;
+  animation: blinker 0.8s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 .hero__intro-2 {
   animation: heroTitleReveal 700ms ease-out 350ms both;
+  color: var(--color-text);
 }
 
 .hero__title {
